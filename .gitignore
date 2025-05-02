@@ -1,0 +1,25 @@
+# Dépendances Node.js
+node_modules/
+
+# Données d'authentification WhatsApp
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Variables d'environnement (contiennent des clés API)
+.env
+
+# Fichiers logs
+*.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Dossiers de build
+/dist
+/build
+
+# Fichiers de debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
